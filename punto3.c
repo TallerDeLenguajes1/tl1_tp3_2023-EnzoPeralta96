@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #define MAX 100
-#define TAMA 2
+#define TAMA 5
 
 void main(){
     char * arregloDePunteros[TAMA];
@@ -21,5 +21,5 @@ void main(){
         puts(arregloDePunteros[i]);
         free(arregloDePunteros[i]);
     }
-    
+
 }
