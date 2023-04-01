@@ -10,7 +10,7 @@ void main(){
 
     for (int i = 0; i < TAMA; i++)
     {
-        printf("Nombre nro:%d:",i+1);
+        printf("Nombre nro %d:",i+1);
         gets(arregloAuxiliar);
         arregloDePunteros[i]=malloc((strlen(arregloAuxiliar)+1)*sizeof(char));
         strcpy(arregloDePunteros[i],arregloAuxiliar);
